@@ -1,0 +1,44 @@
+
+body{
+    background-image: url(goldeng.jpg.jpg);
+    font-family: sans-serif;
+   
+}
+.box {
+    background: rgb(173, 173, 249,0.5);
+    
+    width: 350px;
+    height: 250px;
+left: 42%;
+top: 37%;
+position: absolute;
+justify-content: center; 
+border-radius: 15px;
+
+
+}
+
+
+h1 {
+
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    display: inline-flex;
+    left: 50%;
+    top: 40%;
+    position: absolute; 
+    
+}
+.type {
+flex-direction: column;
+    justify-content: center;
+    display: inline-flex;
+    align-content:space-between;
+    left: 45%;
+    top: 50%;
+    position: absolute;
+    width: 250px;
+    height: 125px;
+    grid-gap: 8px;
+}
